@@ -1,0 +1,40 @@
+{
+  "-": {
+    "type": "separator",
+    "title": "Main"
+  },
+  "index": {
+    "title": "Home"
+  },
+  "--": {
+    "type": "separator",
+    "title": "Gaming Contents"
+  },
+  "astroneer": "Hyperion Astroneer Server",
+  "hyperion-network": "Hyperion Network",
+  "private-smp": "Hyperion Private SMP",
+  "---": {
+    "type": "separator",
+    "title": "Other Contents (To be added)"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "tos": {
+    "title": "Terms of Service",
+    "type": "page"
+  },
+  "status": {
+    "title": "Status",
+    "type": "page",
+    "href": "https://hyperionfoundation.statuspage.io",
+    "newWindow": true
+  },
+  "support": {
+    "title": "Support Us",
+    "type": "page",
+    "href": "https://www.hyperfoundation.my.id/support",
+    "newWindow": true
+  }
+}

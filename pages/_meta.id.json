@@ -1,0 +1,40 @@
+{
+  "-": {
+    "type": "separator",
+    "title": "Utama"
+  },
+  "index": {
+    "title": "Home"
+  },
+  "--": {
+    "type": "separator",
+    "title": "Konten Gaming"
+  },
+  "astroneer": "Hyperion Astroneer Server",
+  "hyperion-network": "Hyperion Network",
+  "private-smp": "Hyperion Private SMP",
+  "---": {
+    "type": "separator",
+    "title": "Konten Lainnya (Akan ditambahkan)"
+  },
+  "about": {
+    "title": "Tentang",
+    "type": "page"
+  },
+  "tos": {
+    "title": "Ketentuan Layanan",
+    "type": "page"
+  },
+  "status": {
+    "title": "Status",
+    "type": "page",
+    "href": "https://hyperionfoundation.statuspage.io",
+    "newWindow": true
+  },
+  "support": {
+    "title": "Dukung Kami",
+    "type": "page",
+    "href": "https://www.hyperfoundation.my.id/id/support",
+    "newWindow": true
+  }
+}

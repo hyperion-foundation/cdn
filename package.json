@@ -1,0 +1,41 @@
+{
+  "name": "hyperion-cdn",
+  "version": "1.0.0",
+  "description": "A Hyperion Foundation CDN website",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperion-foundation/cdn.git"
+  },
+  "engines": {
+    "node": "=>16.8.0"
+  },
+  "keywords": [
+    "website",
+    "cdn",
+    "hyperion-foundation",
+    "nodejs",
+    "nextjs",
+    "nextra"
+  ],
+  "author": "SleepNov4, Hyperion Dev Team, Hyperion Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperion-foundation/cdn/issues"
+  },
+  "homepage": "https://github.com/hyperion-foundation/cdn#readme",
+  "dependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.4.18",
+    "next": "^13.4.18",
+    "nextra": "^2.11.0",
+    "nextra-theme-docs": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  }
+}
