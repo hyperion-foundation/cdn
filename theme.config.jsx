@@ -17,7 +17,10 @@ export default {
       <meta property='og:url' content={`https://cdn.hyperfoundation.my.id${asPath}`} />
       <meta property='og:title' content={frontMatter.title || 'Hyperion Foundation CDN'} />
       <meta property='og:description' content={frontMatter.description || 'A Hyperion Foundation CDN website. Storing our old contents that can be used for public.' } />
+      <meta property='description' content='A Hyperion Foundation CDN website. Storing our old contents that can be used for public.' />
+      
       <title>Hyperion Foundation CDN</title>
+      
       <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
     </>
   },
