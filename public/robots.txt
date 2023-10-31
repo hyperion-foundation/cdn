@@ -1,0 +1,21 @@
+# ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+# ───█▒▒░░░░░░░░░▒▒█───
+# ────█░░█░░░░░█░░█────
+# ─▄▄──█░░░▀█▀░░░█──▄▄─
+# █░░█─▀▄░░░░░░░▄▀─█░░█
+# █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+# █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
+# █░░║║║╠─║─║─║║║║║╠─░░█
+# █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
+# █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+#
+# This is the list which robots can access our website.
+# Created by the human.
+
+User-agent: *
+Allow: /
+Disallow: /project/teamspeak
+Disallow: /id/project/teamspeak
+
+User-agent: Baiduspider
+Disallow: /
