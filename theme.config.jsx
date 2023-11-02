@@ -21,22 +21,24 @@ export default {
     const { asPath } = useRouter()
     const { frontMatter } = useConfig()
 
-    return <>
-      <meta property='og:url' content={`https://cdn.hyperfoundation.my.id${asPath}`} />
-      <meta property='og:title' content={frontMatter.title || 'Hyperion Foundation CDN'} />
-      <meta property='og:description' content={frontMatter.description || 'A Hyperion Foundation CDN website. Storing our old contents that can be used for public.' } />
-      <meta property='description' content='A Hyperion Foundation CDN website. Storing our old contents that can be used for public.' />
-      <meta name="google-adsense-account" content="ca-pub-6163526907517542" />
+    return (
+      <>
+        <meta name='og:url' content={`https://cdn.hyperfoundation.my.id${asPath}`} />
+        <meta name='og:title' content={frontMatter.title || 'Hyperion Foundation CDN'} />
+        <meta name='og:description' content={frontMatter.description || 'A Hyperion Foundation CDN website. Storing our old contents that can be used for public.' } />
+        <meta name='description' content='A Hyperion Foundation CDN website. Storing our old contents that can be used for public.' />
+        <meta name='google-adsense-account' content='ca-pub-6163526907517542' />
       
-      <title>Hyperion Foundation CDN</title>
+        <title>Hyperion Foundation CDN</title>
       
-      <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
-      <Script 
-        id="adsbygoogle-init"
-        strategy="afterInteractive"
-        crossOrigin="anonymous"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542" />
-    </>
+        <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
+        <Script 
+          id='adsbygoogle-init'
+          strategy='afterInteractive'
+          crossOrigin='anonymous'
+          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542' />
+      </>
+    )
   },
   i18n: [
     { locale: 'en', text: '🇺🇸 English' },
