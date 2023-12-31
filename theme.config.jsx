@@ -44,13 +44,11 @@ export default {
     { locale: 'en', text: '🇺🇸 English' },
     { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
   ],
-  // banner: {
-  //   key: 'Announcement',
-  //   text: (
-  //     'Some of the contents are not available, because they\'re not get backed up.'
-  //   ),
-  //   dismissible: false
-  // },
+  banner: {
+    dismissible: false,
+    key: 'HappyNewYear2024',
+    text: 'Happy New Year 2024! 🥳 🎉'
+  },
   search: {
     placeholder: 'Search something...'
   },
