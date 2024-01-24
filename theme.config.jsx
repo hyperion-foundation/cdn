@@ -44,11 +44,11 @@ export default {
     { locale: 'en', text: '🇺🇸 English' },
     { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
   ],
-  banner: {
-    dismissible: false,
-    key: 'HappyNewYear2024',
-    text: 'Happy New Year 2024! 🥳 🎉'
-  },
+  // banner: {
+  //   dismissible: false,
+  //   key: 'HappyNewYear2024',
+  //   text: 'Happy New Year 2024! 🥳 🎉'
+  // },
   search: {
     placeholder: 'Search something...'
   },
