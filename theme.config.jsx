@@ -4,8 +4,8 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { useConfig } from 'nextra-theme-docs';
 import Script from 'next/script';
-import versionNumber from './package.json';
-import logo from './src/js/logo.js';
+import logo from './src/components/HeaderLogoTextAnimation.jsx';
+import { Footer } from './src/components/Footer.jsx';
 
 export default {
   logo: logo,
@@ -31,6 +31,7 @@ export default {
       
         <title>Hyperion Foundation CDN</title>
       
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css' rel='stylesheet' />
         <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
         <Script 
           id='adsbygoogle-init'
@@ -84,10 +85,6 @@ export default {
     content: null
   },
   footer: {
-    text: (
-      <span>
-        &copy; {new Date().getFullYear()} <a href='https://www.hyperfoundation.my.id'>Hyperion Foundation</a> &mdash; {`v${versionNumber.version}`}
-      </span>
-    )
+    component: Footer
   }
 }
