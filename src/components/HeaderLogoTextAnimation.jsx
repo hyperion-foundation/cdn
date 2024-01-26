@@ -1,14 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { keyframes } from "styled-components";
-
-export default function TextGradientComponent() {
-  return (
-    <>
-      <AnimatedGradientText>Hyperion Foundation CDN</AnimatedGradientText>
-    </>
-  );
-}
+import React from 'react';
+import styled from 'styled-components';
+import { keyframes } from 'styled-components';
 
 const gradient = keyframes`
 {
@@ -30,3 +22,11 @@ const AnimatedGradientText = styled.span`
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 `;
+
+export default function TextGradientComponent() {
+  return (
+    <>
+      <AnimatedGradientText>Hyperion Foundation CDN</AnimatedGradientText>
+    </>
+  );
+}
