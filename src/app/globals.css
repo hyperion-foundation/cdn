@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "inter";
+  --color-orange: #ff5622;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, sans-serif;
+}
+
+.gooey-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  filter: url('#gooey');
+}
+
+.gooey-button .wipe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 50%;
+  transform: translateX(-101%) scale(0.3); 
+  z-index: -1; 
+}
+
+.gooey-button:hover {
+  color: #fff;
+}
+
+.hidden-svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
