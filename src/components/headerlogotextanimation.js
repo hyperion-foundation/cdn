@@ -20,7 +20,7 @@ const getSeason = () => {
   if (month >= 3 && month <= 5) return "spring";
   if (month >= 6 && month <= 8) return "summer";
   if (month >= 9 && month <= 1) return "autumn";
-  return winter;
+  return "winter";
 };
 
 const seasonalGradients = {
